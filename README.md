@@ -4,9 +4,21 @@
 
 #### By _Riki Montgomery and Margaret Berry_
 
-## Description
+## Specs
 
-_..._
+
+* _For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay"._
+* __
+* _If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!_
+
+|  Specs | Input  | Output  |
+|---|---|---|
+| The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3  |  3 |
+| The program adds "way" to single-letter words beginning with a vowel. | i  | iway  |
+| Add "way" to the end of multiple letter words beginning with vowels. | at  | atway  |
+| For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay". | so, skirt, strap  | osay, irtskay, apstray  |
+| For words beginning with "y", treat "y" as a consonant. | yes  | esyay  |
+| If the first consonants include "qu", move the "u" along with the "q". | quit, squeal  | itquay, ealsquay  |
 
 ## Setup/Installation Requirements
 
