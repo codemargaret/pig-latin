@@ -3,15 +3,14 @@ function translator(userSentence) {
   var words = userSentence.toLowerCase().split(" ");
 
   for (var i = 0; words.length > i; i +=1) {
-    var word = words[i];
-    var firstLetter = word.charAt(0);
+    var firstLetter = words[i].charAt(0);
     alert(firstLetter);
 
     if (firstLetter === 'a' || firstLetter === 'e' || firstLetter === 'i' || firstLetter === 'o' || firstLetter === 'u') {
-      words[i] = word + "way"
-      alert(word);
+      words[i] = words[i] + "way"
+      alert(words[i]);
     } else if (firstLetter !== 'a' || firstLetter !== 'e' || firstLetter !== 'i' || firstLetter !== 'o' || firstLetter !== 'u') {
-      words[i] = word + firstLetter + "ay";
+      words[i] = words[i].slice(1) + firstLetter + "ay";
     }
 
   }
