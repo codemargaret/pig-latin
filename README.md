@@ -1,11 +1,17 @@
-# _Pig Latin Project_
+# _Pig Latin Translator_
 
-#### _Create a form to translate input into pig latin, 8.16.2017_
+#### _A form that translates a sentence into Pig Latin, 8.16.2017_
 
 #### By _Riki Montgomery and Margaret Berry_
 
-## Specs
+## Setup/Installation Requirements
+_Run the following commands in Terminal:_
 
+1. `$ git clone` [this repository](https://github.com/codemargaret/pig-latin.git)
+2. `$ cd pig-latin`
+3. `$ open index.html`
+
+## Specs
 |  Specs | Input  | Output  |
 |---|---|---|
 | The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels. | 3  |  3 |
@@ -15,30 +21,17 @@
 | For words beginning with "y", treat "y" as a consonant. | yes  | esyay  |
 | If the first consonants include "qu", move the "u" along with the "q". | quit, squeal  | itquay, ealsquay  |
 
-## Setup/Installation Requirements
-
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_..._
-
 ## Known Bugs
-
-_..._
+_There are no known bugs at this time._
 
 ## Support and contact details
 
-_If you have questions or comments, please contact [Riki](mostriki820@gmail.com) or [Margaret](margaretshelaghmcgovern@gmail.com)_
+_If you have questions or comments, please contact [Riki](mostriki820@gmail.com) or [Margaret](codeberry1@gmail.com)_
 
 ## Technologies Used
-
 _We used HTML, CSS, JS, jQuery, and Bootstrap._
 
 ### License
-
 *MIT License*
 
 Copyright (c) 2017 **_Riki Montgomery and Margaret Berry_**
